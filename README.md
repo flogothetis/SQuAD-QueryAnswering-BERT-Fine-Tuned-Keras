@@ -15,6 +15,10 @@ Hugging Face's Bert pretrained model was used. Creating a Bert capable of SQuAD 
 
 <img src="https://miro.medium.com/max/1840/1*QhIXsDBEnANLXMA0yONxxA.png" />
 
+## Evaluation (as tf.keras.Callback)
+The model was tested on validation data using Exact Match Score. Exact match is a metric that counts the accuracy of the predicted span as answer accoring to ground truth.
+The validation exact match is 78 %.
+
 ## Run on Google colab
 1. Open Google Colab
 2. Load .ipnb file 
